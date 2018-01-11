@@ -27,7 +27,7 @@ describe('Bubble Sort', function(){
 });
 describe('Bubble Sort Count', function(){
   beforeEach(function(){
-    spyOn(window,swap).and.callThrough();
+    spyOn(window, 'swap').and.callThrough();
   });
   it('Fully sorted no swap', function(){
     bubbleSort([1,2,3]);
